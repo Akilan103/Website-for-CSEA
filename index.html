@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Science Engineering Association</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <h1>Computer Science Engineering Association</h1>
+      <button id="mode-toggle">Dark Mode</button>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#announcements">Announcements</a>
+      <a href="#winners">Winners</a>
+      <a href="#scoreboard">Scoreboard</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#officebearers">Office Bearers</a>
+      <a href="#login">Login</a>
+      <a href="#signup">Sign Up</a>
+      <a href="#postContent">Post Content</a>
+      <a href="#search">Search Posts</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to the CSE Association</h2>
+      <p>
+        The Computer Science Engineering Association is a platform for fostering
+        innovation and collaboration among students and professionals in the
+        field of computer science.
+      </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        We are dedicated to promoting growth in technology through events,
+        workshops, and collaboration.
+      </p>
+    </section>
+
+    <!-- Announcements Section -->
+    <section id="announcements">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li>Coding Contest - November 15th, 2024</li>
+        <li>AI Workshop - December 5th, 2024</li>
+      </ul>
+    </section>
+
+    <!-- Winners Announcement -->
+    <section id="winners">
+      <h2>Winners Announcement</h2>
+      <ul>
+        <li>Hackathon: Team Innovators</li>
+        <li>Coding Contest: CodeMasters</li>
+      </ul>
+    </section>
+
+    <!-- Scoreboard Section -->
+    <section id="scoreboard">
+      <h2>Scoreboard</h2>
+      <table>
+        <tr>
+          <th>Event</th>
+          <th>Team</th>
+          <th>Score</th>
+        </tr>
+        <tr>
+          <td>Hackathon</td>
+          <td>Team Innovators</td>
+          <td>98</td>
+        </tr>
+        <tr>
+          <td>Coding Contest</td>
+          <td>CodeMasters</td>
+          <td>95</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="image1.jpg" alt="Event 1" />
+        <img src="image2.jpg" alt="Event 2" />
+      </div>
+    </section>
+
+    <!-- Office Bearers -->
+    <section id="officebearers">
+      <h2>Office Bearers</h2>
+      <ul>
+        <li>President: John Doe</li>
+        <li>Vice President: Jane Smith</li>
+      </ul>
+    </section>
+
+    <!-- User Login -->
+    <section id="login">
+      <h2>Login</h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <!-- User Signup -->
+    <section id="signup">
+      <h2>Sign Up</h2>
+      <form>
+        <label for="new-username">Username:</label>
+        <input type="text" id="new-username" name="new-username" required />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <label for="new-password">Password:</label>
+        <input type="password" id="new-password" name="new-password" required />
+        <br />
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+
+    <!-- User Content Posting -->
+    <section id="postContent">
+      <h2>Post Your Content</h2>
+      <form>
+        <label for="post-title">Title:</label>
+        <input type="text" id="post-title" name="post-title" required />
+        <br />
+        <label for="post-category">Category:</label>
+        <select id="post-category" name="post-category">
+          <option value="tech">Tech</option>
+          <option value="events">Events</option>
+          <option value="news">News</option>
+        </select>
+        <br />
+        <label for="post-content">Content:</label>
+        <textarea id="post-content" name="post-content" required></textarea>
+        <br />
+        <button type="submit">Post</button>
+      </form>
+    </section>
+
+    <!-- Search and Filter Posts -->
+    <section id="search">
+      <h2>Search and Filter Posts</h2>
+      <form>
+        <label for="search-query">Search:</label>
+        <input type="text" id="search-query" name="search-query" />
+        <br />
+        <label for="category-filter">Filter by Category:</label>
+        <select id="category-filter" name="category-filter">
+          <option value="all">All</option>
+          <option value="tech">Tech</option>
+          <option value="events">Events</option>
+          <option value="news">News</option>
+        </select>
+        <br />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Computer Science Engineering Association. All Rights
+        Reserved.
+      </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
